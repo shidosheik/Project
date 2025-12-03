@@ -72,6 +72,17 @@ def write_voltage_file(voltages, filename="voltages_for_ltspice.csv"):
     df.to_csv(filename, index=False)
     print(f"Saved voltages to {filename}")
 
+# Normalize weights between a minimum and maximum range
+# useage: weights - input to be normalize
+# min_norm - minimum value of the normalized range
+# max_norm - maximum value of the notmalized range
+# this is dissimilar to the method propsed in the paper
+def normalize(weights, min_norm, max_norm):
+    norm_weights = []
+    for weight in weights:
+        norm_weights += [(weight - min(weights)) / (max(weights) - min(weights)) * (max_norm - min_norm) + min_norm]
+    return norm_weights
+
 # -------------------------
 # MAIN SCRIPT
 # -------------------------
