@@ -175,12 +175,8 @@ if __name__ == "__main__":
     w_quant = quantize_simple_rounding(v)         # shape: (16,)
 
     # 4) Collapse the 16 levels into ONE effective level
-    #    Option A: just use the first level
+    #    Use the first level
     effective_level = int(w_quant[0])
-
-    #    (If you prefer averaging, replace the line above with:
-    #     effective_level = int(np.round(w_quant.mean()))
-    #    )
 
     # 5) Convert that single level to a single programming voltage
     single_voltage = convert_weights_to_voltages(
