@@ -1,0 +1,42 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\david\OneDrive\Documents\ECE Masters\562\Project\Paper Documents\Single Cell Attempt 2.net
+Start Time: Thu Dec  4 15:41:37 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Width narrower than recommended for a level 1 MOSFET.
+Instance "M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "M3": Width narrower than recommended for a level 1 MOSFET.
+Instance "M5": Length shorter than recommended for a level 1 MOSFET.
+Instance "M5": Width narrower than recommended for a level 1 MOSFET.
+Instance "M6": Length shorter than recommended for a level 1 MOSFET.
+Instance "M6": Width narrower than recommended for a level 1 MOSFET.
+Instance "M7": Length shorter than recommended for a level 1 MOSFET.
+Instance "M7": Width narrower than recommended for a level 1 MOSFET.
+Instance "M4": Length shorter than recommended for a level 1 MOSFET.
+Instance "M4": Width narrower than recommended for a level 1 MOSFET.
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "M2": Width narrower than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 2e-15
+Changing Tseed to 2e-17
+Changing Tseed to 2e-14
+Changing Tseed to 2e-18
+Changing Tseed to 2e-13
+Changing Tseed to 2e-19
+Changing Tseed to 2e-12
+Changing Tseed to 2e-20
+Changing Tseed to 2e-11
+Changing Tseed to 2e-21
+Changing Tseed to 2e-10
+Changing Tseed to 2e-22
+Total elapsed time: 0.193 seconds.
+
+Files loaded:
+C:\Users\david\OneDrive\Documents\ECE Masters\562\Project\Paper Documents\Single Cell Attempt 2.net
+C:\Users\david\AppData\Local\LTspice\lib\cmp\standard.mos
+
+Measurement "t_inv" FAIL'ed
